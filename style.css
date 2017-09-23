@@ -1,0 +1,19 @@
+html {
+  min-height: 100%;
+  background: #16a085;
+background: -moz-linear-gradient(45deg, #16a085 0%, #f4d03f 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, #16a085), color-stop(100%, #f4d03f));
+background: -webkit-linear-gradient(45deg, #16a085 0%, #f4d03f 100%);
+background: -o-linear-gradient(45deg, #16a085 0%, #f4d03f 100%);
+background: -ms-linear-gradient(45deg, #16a085 0%, #f4d03f 100%);
+background: linear-gradient(45deg, #16a085 0%, #f4d03f 100%);
+}
+
+
+
+h1 {
+  font-family: 'Lobster Two', cursive;
+  color: #fff;
+  text-align: center;
+  font-size: 4em;
+}
