@@ -15,10 +15,12 @@ background: linear-gradient(45deg, #16a085 0%, #f4d03f 100%);
 }
 
 .text-sm {
-  font-size: 1em;
+  font-size: 0.9em;
 }
 
-
+.text-box {
+  height: 250px;
+}
 
 .title {
   font-family: 'Lobster Two', cursive;
@@ -41,18 +43,31 @@ p {
   color: #fff;
   font-size: 1.4em;
   margin: 20px;
+  text-align: left;
 }
 
 .columns {
-  margin-top: 70px;
+  margin-top: 40px;
 }
 
 
 .button {
-  background: none;
-  color: #fff;
-  margin: 30px;
+  background: #fff;
+  color: #16a085;
+  margin: 30px 30px 0px 30px;
+  -webkit-box-shadow: 0px 0px 7px 1px rgba(92,92,92,0.2);
+-moz-box-shadow: 0px 0px 7px 1px rgba(92,92,92,0.2);
+box-shadow: 0px 0px 7px 1px rgba(92,92,92,0.2);
 }
+
+.button:hover {
+  background: #fff;
+  -webkit-box-shadow: 0px 0px 7px 1px rgba(92,92,92,0.7);
+-moz-box-shadow: 0px 0px 7px 1px rgba(92,92,92,0.7);
+box-shadow: 0px 0px 7px 1px rgba(92,92,92,0.7);
+top: -2px;
+}
+
 
 .text-center {
   text-align: center;
