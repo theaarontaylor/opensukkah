@@ -60,6 +60,10 @@ p {
 box-shadow: 0px 0px 7px 1px rgba(92,92,92,0.2);
 }
 
+.button .is-large {
+  margin: 60px;
+}
+
 .button:hover {
   background: #fff;
   -webkit-box-shadow: 0px 0px 7px 1px rgba(92,92,92,0.7);
