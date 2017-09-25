@@ -7,6 +7,11 @@ html {
   background: -o-linear-gradient(45deg, #16a085 0%, #f4d03f 100%);
   background: -ms-linear-gradient(45deg, #16a085 0%, #f4d03f 100%);
   background: linear-gradient(45deg, #16a085 0%, #f4d03f 100%);
+  width: 100%;
+}
+
+body {
+  width: 100%;
 }
 
 .link-text {
@@ -16,10 +21,6 @@ html {
 
 .text-sm {
   font-size: 0.9em;
-}
-
-.text-box {
-  height: 290px;
 }
 
 .title {
@@ -62,7 +63,7 @@ font-family: 'Cabin', sans-serif;
 }
 
 .button .is-large {
-  margin: 60px;
+  margin: 40px;
 }
 
 .button:hover {
