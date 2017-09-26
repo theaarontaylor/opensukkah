@@ -70,6 +70,7 @@ body {
 
 .nav-tabs li a {
   color: #fff;
+  border: none;
 }
 
 .nav-tabs {
