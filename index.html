@@ -15,29 +15,78 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Cabin|Lobster+Two" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.5.3/css/bulma.css" />
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
   <title>The Open Sukkah Initiative</title>
 </head>
 <body class="container">
-  <h1 class="title">The Open Sukkah Initiative</h1>
-    <div class="text-box column is-half is-offset-one-quarter">
-      <h2 class="subtitle">Open your Sukkah</h2>
-      <p>Do you have a sukkah that you would like to share with those who don't? Place a marker on the map so other Jews can use it.
-      <br><br>
-      You can set guidelines on how your sukkah is used such as the hours people can come and whether they must call ahead.</p>
-      <div class="column text-center">
-      <a class="button is-large" href="https://drive.google.com/open?id=1KKYoB1pq9JGUe_bdzkNow5igRAQ&usp=sharing" target="_blank">Share Your Sukkah</a>
+  <div class="col-md-12">
+    <div class="col-md-2 col-md-offset-5">
+      <ul class="nav nav-tabs" id="myTab">
+        <li class="active"><a data-target="#english" data-toggle="tab">English</a></li>
+        <li><a data-target="#hebrew" data-toggle="tab">עברית</a></li>
+      </ul>
     </div>
-    </div>
-    <div class="text-box column is-half is-offset-one-quarter">
-      <h2 class="subtitle">Find a Sukkah</h2>
-      <p>ּBelow you'll find a map of sukkot that people have graciously shared with The Open Sukkah Initiative. Please be respectful!
-      </p>
   </div>
+
+<div class="tab-content">
+<div class="tab-pane active" id="english">
+  <h1 class="title">The Open Sukkah Initiative</h1>
+  <div class="text-box col-md-6 col-md-offset-3">
+    <h2 class="subtitle">Share a Sukkah</h2>
+    <p>
+      1. Post a public, community sukkah that anyone can use <br>
+      2. Post your sukkah and contact details so people can join you as guests
+    </p>
+    <div class="column text-center">
+    <button class="btn btn-default" href="https://drive.google.com/open?id=1KKYoB1pq9JGUe_bdzkNow5igRAQ&usp=sharing" target="_blank">Share Your Sukkah</button>
+  </div>
+  </div>
+  <div class="text-box col-md-6 col-md-offset-3">
+    <h2 class="subtitle">Find a Sukkah</h2>
+    <p>ּBelow you'll find a map of sukkot that people have graciously shared with The Open Sukkah Initiative.</p>
+</div>
+</div>
+<div class="tab-pane" id="hebrew">
+  <div class="tab-pane active" id="english">
+    <h1 class="title hebrew text-center">יוזמת הסוכה הפתוחה</h1>
+    <div class="text-box col-md-6 col-md-offset-3">
+      <h2 class="subtitle hebrew text-center">שתפו סוכה</h2>
+      <p class="hebrew">
+        1. תוכלו לפרסם סוכה ציבורית/משותפת לשימוש הכלל <br> <br>
+        2. תוכלו לפרסם את הסוכה שלכם עם מספר טלפון על מנת שאנשים יוכלו להצטרף אליכם כאורחים
+      </p>
+      <div class="column text-center">
+      <button class="btn btn-default hebrew" href="https://drive.google.com/open?id=1KKYoB1pq9JGUe_bdzkNow5igRAQ&usp=sharing" target="_blank">שתף סוכה</button>
+    </div>
+    </div>
+    <div class="text-box col-md-6 col-md-offset-3">
+      <h2 class="subtitle hebrew text-center">מצאו סוכה</h2>
+      <p class="hebrew">למטה תוכלו לראות מפה בה מסומנות סוכות שאפשר להתארח בהן במיזם הסוכה הפתוחה</p>
+  </div>
+  </div>
+</div>
+</div>
+
+
+
+
+
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1KKYoB1pq9JGUe_bdzkNow5igRAQ" width="100%" height="480"></iframe>
 <div class="sharethis-inline-share-buttons"></div>
 <p class="text-sm">Created by Aaron Taylor - Got Questions? <a class="link-text" href="mailto:aarontaylor613@gmail.com">Email him</a></p>
+
+<script>
+jQuery(function () {
+  jQuery('#myTab a:last').tab('show')
+})
+</script>
+
+
 </body>
 </html>

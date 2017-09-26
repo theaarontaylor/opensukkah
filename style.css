@@ -12,6 +12,13 @@ html {
 
 body {
   width: 100%;
+  background: none;
+}
+
+.hebrew {
+  font-family: 'Arimo', sans-serif !important;
+  direction: rtl;
+  text-align: right;
 }
 
 .link-text {
@@ -31,16 +38,54 @@ body {
   margin: 20px;
 }
 
+.description {
+  font-family: 'Cabin', sans-serif;
+  font-size: 2.6em;
+}
+
 .subtitle {
   font-family: 'Lobster Two', cursive;
   color: #fff;
   text-align: center;
   font-size: 2.5em;
+  padding: 30px;
+}
+
+.nav-tabs .active {
+  text-decoration: underline;
+}
+
+.nav-tabs li a:hover {
+  background: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav-tabs li.active a:hover {
+  background: none;
+  border: none;
+  color: #fff;
+}
+
+.nav-tabs li a {
+  color: #fff;
+}
+
+.nav-tabs {
+  border-bottom: none !important;
+  margin: 0 auto;
 }
 
 
+.nav-tabs > li.active > a {
+  background: none;
+  border: none;
+  color: #fff;
+}
+
 p {
-  font-family: 'Cabin', sans-serif;
+  font-family: 'Cabin', sans-serif !important;
   color: #fff;
   font-size: 1.4em;
   margin: 20px;
@@ -52,7 +97,7 @@ p {
 }
 
 
-.button {
+.btn-default {
   background: #fff;
   color: #16a085;
   margin: 30px 30px 0px 30px;
@@ -60,13 +105,18 @@ p {
 -moz-box-shadow: 0px 0px 7px 1px rgba(92,92,92,0.2);
 box-shadow: 0px 0px 7px 1px rgba(92,92,92,0.2);
 font-family: 'Cabin', sans-serif;
+font-size: 2.1em;
+width: 300px;
+padding: 10px;
+text-align: center;
+margin: 30px;
 }
 
 .button .is-large {
   margin: 40px;
 }
 
-.button:hover {
+.btn-default:hover {
   background: #fff;
   -webkit-box-shadow: 0px 0px 7px 1px rgba(92,92,92,0.7);
 -moz-box-shadow: 0px 0px 7px 1px rgba(92,92,92,0.7);
