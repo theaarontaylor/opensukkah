@@ -68,6 +68,14 @@ body {
   color: #fff;
 }
 
+a {
+  color: #16a085;
+}
+
+a:hover {
+  color: #16a085;
+}
+
 .nav-tabs li a {
   color: #fff;
   border: none;
